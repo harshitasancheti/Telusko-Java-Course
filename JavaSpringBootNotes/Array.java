@@ -79,15 +79,25 @@ public class Array {
         s3.rollno = 3;
         s3.name = "Shivani";
         s3.marks = 89;
-
-        Student stu1[] = new Student[3];
+        
+        Student s4 = new Student();
+        s4.rollno=123;
+        s4.name="Dimple";
+        s4.marks=90; 
+        
+        Student stu1[] = new Student[4];
         stu1[0] = s1;
         stu1[1] = s2;
         stu1[2] = s3;
+        stu1[3]= s4;
+
+        
 
         for (int i=0; i<stu1.length;i++){
             System.out.println(stu1[i].name+ ": " +stu1[i].marks);
         }
+
+        // List<Integer> ls = new Arr
 
     }
 }

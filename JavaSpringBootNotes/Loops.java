@@ -36,12 +36,14 @@ public class Loops {
         // }
 
         System.out.print("For Loop: ");
-        for (int i = 1; i <= 5; i++) {
-            if (i < 5) {
-                System.out.print(i + " ");
-            } else {
-                System.out.print(i);
-            }
+        for (int i = 1; i < 5; i++) {
+            // if (i < 5) {
+            //     System.out.print(i + " ");
+            // } else {
+            //     System.out.print(i);
+            // }
+
+            System.out.println("Hi");
         }
         System.out.println();
 
